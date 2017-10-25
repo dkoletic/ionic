@@ -33,7 +33,7 @@ export class HomePage {
       },
       // Error
       (err) => {
-        console.log("greška");
+        alert("greška");
       }
     );
   }
